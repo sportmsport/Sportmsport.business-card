@@ -1,0 +1,71 @@
+/* Desktop Specific Styles */
+@media (min-width: 1025px) {
+    body {
+        background-image: radial-gradient(circle at 50% 50%, #2c2c2c 0%, #121212 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    #main-content {
+        width: 100%;
+        max-width: 1400px; /* Increased constraint */
+        padding: 0;
+        height: auto;
+        min-height: auto;
+    }
+
+    .card-container {
+        max-width: 1000px; /* Increased max-width */
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Split layout for desktop */
+        text-align: center; /* Center aligned as requested */
+    }
+
+    .card-header {
+        grid-column: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: none;
+        border-left: 1px solid rgba(255, 255, 255, 0.05); /* RTL border */
+        padding: 60px; /* Increased padding */
+    }
+
+    .card-body {
+        grid-column: 2;
+        padding: 60px; /* Increased padding */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card-footer {
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+
+    /* Adjust text alignment for desktop split view */
+    .description {
+        text-align: center; /* Center aligned */
+        font-size: 1.1rem; /* Slightly larger text */
+    }
+    
+    .social-links {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px; /* Increased gap */
+    }
+
+    .social-btn i {
+        margin-left: 8px;
+    }
+    
+    .social-btn {
+         font-size: 1.2rem;
+         padding: 20px;
+    }
+}

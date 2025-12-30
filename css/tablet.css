@@ -1,0 +1,60 @@
+/* Tablet Specific Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        /* Similar gradient to desktop but maybe simpler or same? Let's use the desktop one */
+        background-image: radial-gradient(circle at 50% 50%, #2c2c2c 0%, #121212 100%);
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-container {
+        max-width: 600px; /* Wider than mobile, smaller than desktop */
+        width: 90%;
+        margin: 40px auto;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column; /* Stacked layout looks better on portrait tablets */
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        text-align: center; /* Center align as requested */
+    }
+
+    .card-header {
+        padding: 40px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .logo-container {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .card-header h1 {
+        font-size: 2.2rem;
+    }
+
+    .card-body {
+        padding: 40px;
+    }
+
+    .description {
+        font-size: 1.2rem;
+        margin-bottom: 40px;
+    }
+
+    /* Side by side buttons on tablet if space permits? 
+       Or stacked? Stacked is safer for touch. 
+       Let's try side-by-side for tablet to make it distinct from mobile.
+    */
+    .social-links {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .social-btn {
+        padding: 20px;
+        font-size: 1.2rem;
+    }
+}

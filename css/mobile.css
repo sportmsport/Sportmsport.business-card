@@ -1,0 +1,27 @@
+/* Mobile Specific Styles */
+@media (max-width: 768px) {
+    .card-container {
+        max-width: 100%;
+        border-radius: 0; /* Full width on mobile looks cleaner often */
+        min-height: 100vh;
+        border: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-body {
+        flex: 1; /* Pushes footer down */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card-header {
+        padding-top: 40px;
+    }
+
+    .social-btn {
+        padding: 18px; /* Larger touch targets */
+        font-size: 1.2rem;
+    }
+}
