@@ -221,6 +221,11 @@ body {
     background: linear-gradient(45deg, #229ED9, #0088cc);
 }
 
+/* استایل دکمه پیگیری سفارشات */
+.tracking {
+    background: linear-gradient(45deg, #11998e, #38ef7d); /* گرادینت سبز برای تمایز */
+}
+
 .card-footer {
     padding: 15px;
     font-size: 0.8rem;
