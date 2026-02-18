@@ -60,6 +60,11 @@
         gap: 25px; /* Increased gap */
     }
 
+    /* این کد باعث می‌شود دکمه آخر (پیگیری) کل عرض پایین را پر کند */
+    .social-btn:last-child {
+        grid-column: span 2;
+    }
+
     .social-btn i {
         margin-left: 8px;
     }
