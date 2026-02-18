@@ -17,5 +17,6 @@
 ## 🔗 لینک‌های مهم
 - 🌐 [Instagram SportmSport](https://www.instagram.com/sportmsport.esf?igsh=YzJ6bnUxbGh5Y201&utm_source=qr)  
 - 💻 [GitHub Repository](https://github.com/sportmsport/Sportmsport.business-card)
+- [Business Card](https://sportmsport.github.io/Sportmsport.business-card/)
 
 ---
